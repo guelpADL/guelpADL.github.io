@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*导航栏*/
+#header{
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+    background-color: rgb(90, 90, 90);
+    opacity: 0.9;
+}
+#header img{
+    width: 60px;
+    height: 60px;
+}
+#header #zi-hu{
+    height: 90px; 
+    width: 85px;
+    margin-top: 5px; 
+    margin-right: -12px; 
+}
+#header #zi-tao{
+    margin-top: 5px;
+    margin-left: -12px; 
+}
+#header #header-left{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#header #header-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header #nav ul .way{
+    float: left;
+    margin-left: 50px;
+
+}
+#header #nav ul .way #afterer{
+    color:white;
+    cursor: pointer;
+    text-shadow: 0 0 10px #69e0ff;
+}
+#header #nav ul .way a{
+    color:rgb(177, 177, 177);
+    cursor: pointer;
+}
+#header #nav ul .way a:hover{
+    color: white;
+    text-shadow: 0 0 10px #69e0ff;
+}
+
+#header #header-left #nav #track{
+    position: relative;
+    top: -20px;
+    left: 134px;
+    width: 46px;
+    height: 5px;
+    background-color: aqua;
+    transition: all 0.5s;
+}
+#header #meet{
+    display: flex;
+    align-items: center;
+}
+#header #login{
+    display: flex;
+    align-items: center;
+}
+#header #meet span{
+    position: relative;
+    top: -10px;
+    letter-spacing: 2px;
+    color:rgb(177, 177, 177);
+    cursor: pointer;
+}
+#header #login span{
+    color:rgb(177, 177, 177);
+    cursor: pointer;
+}
+#header #meet span:hover{
+    color:white;
+}
+#header #login span:hover{
+    color:white;
+}
+#header #header-right #meet #pic-f{
+    height: 50px;
+    width: 50px ;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+#header #header-right #login #person{
+    height: 25px;
+    width: 25px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+#header #header-left #logo{
+    margin-left: 35px;
+}
+/*主体*/
+#try{
+    width: 100%;
+    height: 950px;
+    background-image: url(../news_pic/try.jpg);
+    background-size: 100% auto;
+    opacity: 0.8;
+}
+#newsbody{
+    width: 1200px;
+    height: 710px;
+    position: absolute;
+    top: 100px;
+    left: 350px;    
+    overflow: hidden;
+    background-image: url(../news_pic/bulletin-board.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#newsbody #newsnav{
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newsbody #newsnav ul li{
+    float: left;
+    margin: 30px;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+#newsbody #newsnav ul #spacal1{
+    color: rgb(25, 0, 255);
+    
+}
+#newsbody #news-content{
+    color: rgb(0, 0, 0);
+}
+#newsbody #news-content #latest{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    cursor: pointer;
+}
+#newsbody #news-content #activity{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    display: none;
+    cursor: pointer;
+}
+#newsbody #news-content #notive{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    display: none;
+    cursor: pointer;
+}
+#newsbody #news-content #latest ul li{
+    margin-bottom: 50px;
+}
+#newsbody #news-content #activity ul li{
+    margin-bottom: 50px;
+}
+#newsbody #news-content #notive ul li{
+    margin-bottom: 50px;
+}
+#newsbody #news-content #latest #latest-right{
+   position: relative;
+   top: -355px;
+   left: 350px;     
+}
+#newsbody #news-content #activity #activity-right{
+    position: relative;
+    top: -355px;
+    left: 350px;
+
+}
+#newsbody #news-content #notive #notive-right{
+    position: relative;
+    top: -285px;
+    left: 350px;
+}
+#newsbody #enjoy-border{
+    width: 470px;
+    height: 270px;
+    position: absolute;
+    top: 130px;
+    left: 650px;
+    background-color: rgba(255, 184, 184, 0.4);
+    border: rgb(148, 148, 148) solid 1px;
+}
+#newsbody #enjoy img{
+    width: 100%;
+    height: auto;
+    transition: transform 2.5s;
+}
+#newsbody #enjoy{
+    width: 450px;
+    height: 250px;
+    overflow: hidden;   
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: white solid 1px;    
+}
+#newsbody #enjoy #play{
+    width: 1353px;
+    height: 252px;
+}
+#newsbody #enjoy #play ul li{
+    width: 450px;
+    height: 250px;
+    float: left;
+}
+
+
+#newsbody #enjoy-nav ul li{
+    width: 154px;
+    height: 101.75px;
+    float: left;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 325px;
+    left: 630px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: rgb(148, 148, 148) solid 1px;
+}
+#newsbody #enjoy-nav ul li img{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    left: -9px;
+    border: white solid 1px;
+    cursor: pointer;
+}
+#newsbody #enjoy-nav ul #b1 img{
+    position: relative;
+    top: 8px;
+    left: -9px;
+}
+#newsbody #enjoy-nav ul li:hover{
+    background-color: rgba(255, 103, 103, 0.8);
+}
+#newsbody #news-content .bo{
+    width: 500px;
+    height: 1px;
+    background-color: rgb(255, 144, 144);
+}
+#newsbody #news-content #bo1{
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+#newsbody #news-content #bo2{
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+#newsbody #news-content #bo3{
+    position: relative;
+    top: 170px;
+    left: 90px;
+}
+#newsbody #news-content #bo4{
+    position: relative;
+    top: 220px;
+    left: 90px;
+}
+#newsbody #news-content #bo5{
+    position: relative;
+    top: 240px;
+    left: 90px;
+}
+#newsbody #news-content #bo6{
+    position: relative;
+    top: 290px;
+    left: 90px;
+}
+#newsbody #news-content #bo7{
+    position: relative;
+    top: 310px;
+    left: 90px;
+}
+#newsbody #news-content #bo8{
+    position: relative;
+    top: 360px;
+    left: 90px;
+}
+#newsbody #news-content #bo9{
+    position: relative;
+    top: 380px;
+    left: 90px;
+}
+#newsbody #news-content #bottom-cont{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#newsbody #news-content #bottom-cont #news-blog{
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: 500px;
+    left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#newsbody #news-content #bottom-cont #news-wechat{
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: 500px;
+    left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#newsbody #news-content #bottom-cont #news-qq{
+    width: 110px;
+    height: 50px;
+    position: relative;
+    top: 500px;
+    left: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#newsbody #news-content #bottom-cont a img{
+    width: 30px;
+    height: auto;
+}
+#newsbody #news-content #bottom-cont #news-blog a{
+    color: rgb(0, 0, 0)    ;
+}
+#newsbody #news-content #bottom-cont #news-wechat a{
+    color: rgb(0, 0, 0)    ;
+}
+#newsbody #news-content #bottom-cont #news-qq a{
+    color: rgb(0, 0, 0)    ;
+}
+#newsbody #inner{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 340px;
+    left: 820px;
+    color: red;
+    transition: all 0.5s;
+}
+#news-suit{
+    position: absolute;
+    top: 800px;
+    left: 1750px;
+}
+#news-suit img{
+    width: 80px;
+    height: auto;
+}
+#news-download{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+#news-download img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/load.css">
+</head>
+<body>
+    <div id="backgr">
+        <img src="back.jpg" alt="">
+    </div>
+    <div id="loading-border">
+        <div id="loading">
+
+        </div>
+    </div>
+    <div id="now">
+        0%
+    </div>
+    <div id="bot">
+        加载中，请耐心等待
+    </div>
+<script type="text/javascript">
+
+    
+
+
+    window.onload = function(){
+        var liujie = document.getElementById("loading");
+        
+        clearInterval();
+        clearTimeout();
+        
+        liujie.style.left = 10+"px";
+        var ii = 0;
+        var nw = document.getElementById("now");
+        var strr = ii+"%";
+        setInterval(function(){
+            ii++;
+            if(ii>100){
+                ii=100;
+            }
+            strr = ii + "%";
+            nw.innerText = strr;
+        },50)
+        setTimeout(() => {
+            
+            if(liujie.style.left == 10+"px"){
+        
+                window.location.replace("hutao.html");
+                clearInterval();
+                clearTimeout();
+        }
+        }, 5000);
+    }
+    
+    
+</script>
+</body>
+
+</html>

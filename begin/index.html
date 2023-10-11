@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!--主体-->
+    <div id="over">
+        <img src="index_pic/sec.jpg" alt="">
+        <div id="page_login">
+            <div id="login-top">
+                <ul>
+                    <li id="li1" onclick="brea(1)">账密登录</li>
+                    <li>|</li>
+                    <li id="li2" onclick="brea(2)">二维码登录</li>
+                    <li>|</li>
+                    <li id="li3" onclick="brea(3)">人脸登录</li>
+                </ul>
+            </div>
+            <div id="form-containter">
+                <!--账密登录-->
+                <form action="" id="form">
+                    <div id="id">
+                        <div id="id-lab">
+                            <br>
+                            <span>账号&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="text" placeholder="请输入账号" onclick="a(1)" id="nam"><br><br>
+                        </div>
+                    </div>
+                    <div id="pass">                        
+                        <div id="pass-lab">
+                            <span>密码&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="password" placeholder="请输入登录密码" onclick="a(2)" id="coo"><br>
+                        </div>
+                    </div>
+                    <div id="vertify">
+                        <span>验证码</span>
+                        <div id="vertify-pic">
+                        </div>
+                    </div>
+                    <div id="ver-confirm">                        
+                        <div id="ver-confirm-k">
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="text" placeholder="请输入验证码" onclick="a(3)" id="vrr"><br>
+                        </div>
+                    <div id="logining">
+                        <span>登录</span>
+                        <img src="" alt="">
+                    </div>
+                    <div id="register">
+                        <span>注册</span>
+                        <img src="" alt="">
+                    </div>
+                </form> 
+            </div>
+            <!--二维码登录-->
+            <div id="box2">
+                <div id="code-log">
+                    <img src="index_pic/co-code.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <!-- 导航栏 -->
+    <div id="header">
+        <div id="header-left" >
+            <div>
+                <img src="pic/taozi.png" alt="" id="logo">
+            </div>
+            <div>
+                <img src="pic/peach-hu.png" alt="" id="zi-hu">
+                <img src="pic/peach-tao.png" alt="" id="zi-tao">
+            </div>
+            <div id="nav">
+                <div id="track"></div>
+                <ul>
+                    <li class="way" onmouseover="track(1)"><a href="hutao.html" id="pioneer" >首&nbsp;页</a></li>
+                    <li class="way" onmouseover="track(2)"><a href="news.html">新&nbsp;闻</a></li>
+                    <li class="way" onmouseover="track(3)"><a href="">角&nbsp;色</a></li>
+                    <li class="way" onmouseover="track(4)"><a href="">世&nbsp;界</a></li>
+                    <li class="way" onmouseover="track(5)"><a href="">漫&nbsp;画</a></li>
+                    <li class="way" onmouseover="track(6)"><a href="">社&nbsp;区</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-right">
+            <div id="meet">
+                <a href="">
+                    <span>
+                        邂逅之旅
+                    </span>
+                    <img src="pic/buterfly.png  " alt="" id="pic-f">
+                </a>
+            </div>
+        
+            <div id="login">
+                <a href="index.html">
+                    <span>
+                        登&nbsp;录
+                    </span>
+                    <img src="pic/下载.png" alt="" id="person">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/track.js"></script>
+    <script type="text/javascript" src="js/small.js"></script>
+</body>
+</html>
