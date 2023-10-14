@@ -366,7 +366,7 @@ iframe{
     height: 2px;
     background-color: white;
     position: relative;
-    top: 210px;
+    top: 222px;
     left: 20px;
 }
 #hutao-show #stroy-content #hr4{
@@ -636,31 +636,31 @@ iframe{
 #nav-side-1{
     position: fixed;
     top: 360px;
-    left: 1710px; 
+    left: 1759px; 
     z-index: 1;
 }
 #nav-side-2{
     position: fixed;
     top: 430px;
-    left: 1710px; 
+    left: 1759px; 
     z-index: 1;
 }
 #nav-side-3{
     position: fixed;
     top: 500px;
-    left: 1710px;
+    left: 1759px;
     z-index: 1; 
 }
 #nav-side-4{
     position: fixed;
     top: 570px;
-    left: 1710px; 
+    left: 1759px; 
     z-index: 1;
 }
 #nav-side-5{
     position: fixed;
     top: 640px;
-    left: 1710px; 
+    left: 1759px; 
     z-index: 1;
 }
 .nav-side img{
